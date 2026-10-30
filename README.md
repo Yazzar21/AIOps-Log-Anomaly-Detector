@@ -22,15 +22,20 @@ AIOps-Log-Anomaly-Detection/
 │
 ├── data/
 │   └── HDFS_2k.log
+│
 ├── models/
 │   └── isolation_forest_hdfs.pkl
+│
 ├── src/
-│   ├── init.py
+│   ├── __init__.py
 │   ├── log_parser.py
 │   ├── feature_engineering.py
 │   └── train_detector.py
+│
 ├── test/
+│   ├── __init__.py
 │   └── test_pipeline.py
+│
 ├── app.py
 ├── main.py
 ├── requirements.txt
