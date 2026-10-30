@@ -18,6 +18,7 @@ In large-scale cloud and telecommunications infrastructures (such as Huawei Clou
 * **Testing:** Pytest
 
 ## 📂 Project Structure
+```bash
 AIOps-Log-Anomaly-Detection/
 │
 ├── data/
@@ -40,6 +41,7 @@ AIOps-Log-Anomaly-Detection/
 ├── main.py
 ├── requirements.txt
 └── README.md
+```
 
 ## ⚙️ How to Run Locally
 1. Clone the repository:
