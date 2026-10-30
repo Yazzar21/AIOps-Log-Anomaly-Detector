@@ -59,6 +59,18 @@ AIOps-Log-Anomaly-Detection/
    ```bash
    streamlit run app.py
    ```
+## 📊 Dashboard Preview & Results
 
-📈 Dashboard Preview
-The interactive Streamlit UI offers operational metrics, anomaly score distribution histograms, top mined log templates, and a Root Cause Session Log Inspector.
+Below is a screenshot of the Streamlit web interface, showing the log monitoring and anomaly detection system running in real-time:
+
+### 1. System Overview & Anomaly Distribution
+The main dashboard displays summary metrics (total number of logs, templates isolated by Drain3, total block sessions, and the rate of detected anomalies), along with a score distribution chart and the top log templates.
+
+![Dashboard Overview](assets/Graph-of-Anomaly-Score-Distribution-%26-Top-Mined-Log-Templates.png)
+
+### 2. Root Cause Session Log Inspector
+Interactive features for Site Reliability Engineers (SREs) to conduct in-depth exploration of raw log traces based on a `BlockId` flagged for anomalies, for the purpose of troubleshooting.
+
+![Root Cause Inspector](assets/Table-of-Root-Cause-Session-Log-Inspector.png)
+
+Analysis: The interactive Streamlit UI offers operational metrics, anomaly score distribution histograms, top mined log templates, and a Root Cause Session Log Inspector.
